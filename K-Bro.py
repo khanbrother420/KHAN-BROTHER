@@ -324,7 +324,7 @@ def rcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r \33[1;93m[%sHASAN\033[0m/%s\33[1;93m]\033[1;97mOK-\033[38;5;46m%s'%(H,loop,len(oks))),
+        sys.stdout.write(f'\r \33[1;93m[%sKHAN\033[0m/%s\33[1;93m]\033[1;97mOK-\033[38;5;46m%s'%(H,loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
